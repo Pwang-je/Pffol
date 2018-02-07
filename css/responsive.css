@@ -1,0 +1,256 @@
+@charset "UTF-8";
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+/* about me */
+.about-left, .about-right {
+    min-height: 560px;
+}
+
+/* skills */
+.skills ul {
+    margin: 4rem 0;
+}
+    .chart-span {
+        margin-bottom: 2rem;
+        font-size: 20px;
+    }
+
+/* services */
+.serv-box img {
+    width: 84%;
+}
+    .serv-box h3 {
+        margin: 2rem 0;
+    }
+    .serv-img-fix {
+        width: 40% !important;
+    }
+
+/* portfolio */
+.port-wrap {
+    margin: 3rem 0;
+}
+.grid {
+    padding: 0;
+}
+    .grid li {
+        width: auto;
+    }
+
+/* contact */
+.con-left {
+    padding: 0;
+}
+    .con-add span {
+        font-size: 16px;
+    }
+.con-maps img {
+    min-height: 360px;
+}
+
+}   /* @media md-min ~ md-max */
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+/* about me */
+
+.about-title h2 {
+    margin: 3rem 0;
+    text-align: center;
+}
+    .about-left {
+        text-align: center;
+    }
+
+/* skills */
+.skills-title h2 {
+    margin: 0;
+}
+    .skills ul {
+        padding: 0;
+    }
+    .chart-span {
+        margin-bottom: 3rem;
+    }
+        .chart-span span {
+            font-size: 16px;
+        }
+
+/* services */
+.serv-title, .work-title, .skills-title {
+    margin: 3rem 0;
+    text-align: center;
+}
+    .serv-title h2 {
+        margin: 0;
+    }
+    .serv-box {
+        margin: 0;
+    }
+        .serv-box div:first-child,
+        .serv-box div:nth-child(2),
+        .serv-box div:last-child {
+            margin: 2rem 0 2rem 0;
+        }
+        .serv-box img {
+            width: 40%;
+        }
+        .serv-img-fix {
+            width: 20% !important;
+        }
+
+/* work process */
+.work-title h2 {
+    margin: 0;
+}
+.work-main {
+    margin: 0 0 3rem 0;
+}
+
+/* portfolio */
+.port-wrap {
+    margin-bottom: 3rem;
+}
+.portfol .title {
+    margin: 2rem 0;
+    text-align: center;
+}
+    .title h2 {
+        margin: 0;
+    }
+.grid {
+    max-width: auto;
+    padding: 0;
+    margin: auto;
+}
+
+/* contact */
+.contact h2 {
+    margin: 2rem 0;
+    text-align: center;
+}
+    .con-wrap {
+        margin: 0 0 3rem 0;
+    }
+    .con-add {
+        margin: 1rem 0;
+    }
+        .con-add .col-sm-8 {
+            margin: 0;
+        }
+        .con-maps {
+            height: 484px;
+            box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+        }
+    .con-right {
+        margin: 3rem 0;
+    }
+
+}   /* @media sm-min ~ sm-max */
+
+
+@media (max-width: 767px) {
+
+/* about me */
+.about-title h2 {
+    margin: 3rem 0;
+    text-align: center;
+}
+    .about-left {
+        text-align: center;
+    }
+
+/* skills */
+.skills-title h2 {
+    margin: 0;
+    text-align: center;
+}
+    .skills ul {
+        padding: 0;
+        margin-left: 10rem;
+    }
+    .chart-span {
+        margin-bottom: 3rem;
+    }
+        .chart-span span {
+            font-size: 16px;
+        }
+
+/* services */
+.serv-title, .work-title, .skills-title {
+    margin: 3rem 0 4rem 0;
+    text-align: center;
+}
+    .serv-title h2 {
+        margin: 0;
+    }
+    .serv-box {
+        margin: 0;
+    }
+        .serv-box div:first-child,
+        .serv-box div:nth-child(2),
+        .serv-box div:last-child {
+            margin: 2rem 0 2rem 0;
+        }
+        .serv-box img {
+            width: 40%;
+        }
+        .serv-img-fix {
+            width: 20% !important;
+        }
+
+/* work process */
+.work-title h2 {
+    margin: 0;
+}
+.work-main {
+    margin: 0 0 3rem 0;
+}
+
+/* portfolio section */
+.port-wrap {
+    margin-bottom: 3rem;
+}
+.portfol .title {
+    margin: 2rem 0;
+    text-align: center;
+}
+    .title h2 {
+        margin: 0;
+    }
+.grid {
+    padding: 0;
+    margin: 1rem 0;
+}
+
+/* contact */
+.contact h2 {
+    margin: 2rem 0;
+    text-align: center;
+}
+    .con-wrap {
+        margin: 0 0 3rem 0;
+    }
+    .con-add {
+        margin: 1rem 0;
+    }
+        .con-add .col-xs-8 {
+            padding-right: 0;
+            margin: 0;
+        }
+            .con-add .col-xs-8 span {
+                font-size: 14px;
+            }
+        .con-maps {
+            height: 460px;
+            box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+        }
+    .con-right {
+        margin: 3rem 0;
+    }
+
+
+
+}
