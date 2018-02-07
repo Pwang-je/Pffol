@@ -188,8 +188,6 @@ h2 {
             padding: 20px;
             text-align: left;
             position: relative;
-            -webkit-box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
-                    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
         }
         .grid figure {
             position: relative;
