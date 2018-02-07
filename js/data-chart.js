@@ -17,7 +17,7 @@
 				    cirContainer : {
 					    'width':150/*defaults.diameter*/,
 						'height':150/*defaults.diameter*/,
-						'margin':20
+						'margin':'auto'
 					},
 					cir : {
 					    'position': 'relative',

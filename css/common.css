@@ -13,7 +13,7 @@ body {
     .scroll-top{
         display:none;
         position:fixed;
-        top: 80rem;    right: 2rem;
+        top: 74rem;    right: 2rem;
         width:auto;    height: 64px;
         padding:10px;
         border: 2px solid #444;
@@ -100,10 +100,15 @@ h2 {
 }
     .chart-wrap {
         display: inline-flex;
+        justify-content: center;
+        margin: 0 0 4rem 2rem;
     }
     .skills li {
-        margin: 4rem 5rem;
+        /* margin-right: 14rem; */
     }
+        .chart-1, .chart-3 {
+            margin-right: 12rem;
+        }
         .chart-span {
             margin: 3rem 0;
             font-size: 16px;
@@ -280,7 +285,7 @@ h2 {
             }
             .con-maps img {
                 width: 100%;    height: 0 auto;
-                margin-top: 2rem;
+                margin: 2rem 0;
             }
 
 
