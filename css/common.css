@@ -98,9 +98,16 @@ h2 {
     text-align: center;
     list-style: none;
 }
-    .skills li {
-        margin: 4rem 3rem;
+    .chart-wrap {
+        display: inline-flex;
     }
+    .skills li {
+        margin: 4rem 5rem;
+    }
+        .chart-span {
+            margin: 3rem 0;
+            font-size: 16px;
+        }
 
 /* Services */
 

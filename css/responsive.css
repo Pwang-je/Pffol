@@ -168,8 +168,8 @@
     text-align: center;
 }
     .skills ul {
+        display: block;
         padding: 0;
-        margin-left: 10rem;
     }
     .chart-span {
         margin-bottom: 3rem;
@@ -233,6 +233,9 @@
     .con-wrap {
         margin: 0 0 3rem 0;
     }
+    .con-email {
+        padding: 0;
+    }
     .con-add {
         margin: 1rem 0;
     }
@@ -251,6 +254,6 @@
         margin: 3rem 0;
     }
 
-
-
 }
+
+/* @media (min-width: 768px) and (max-width: 991px) */

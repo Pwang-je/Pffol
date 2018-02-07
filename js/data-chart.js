@@ -16,7 +16,8 @@
 				styles = {
 				    cirContainer : {
 					    'width':150/*defaults.diameter*/,
-						'height':150/*defaults.diameter*/
+						'height':150/*defaults.diameter*/,
+						'margin':0
 					},
 					cir : {
 					    'position': 'relative',
